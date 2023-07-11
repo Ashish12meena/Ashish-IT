@@ -1,0 +1,60 @@
+/*Navigation*/
+#navbar  {
+    flex-direction: column;
+}
+#logo {
+    font-size: 1.5rem;
+}
+
+#logo div {
+    font-size: 0.5rem;
+}
+
+#navbar ul li a {
+    font-size: 0.5rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.addres input {
+    font-size: 0.5rem;
+    margin: 0px;
+}
+
+.addres button {
+    font-size: 0.5rem;
+    margin: 0px;
+}
+/*Home section*/
+#home{
+    /* height: 650px; */
+}
+
+#home p{
+    font-size: 0.6rem;
+    margin: 1px 20px;
+}
+.h-primary{
+    font-size: 1rem;
+}
+#home button{
+    font-size: 0.4rem;
+}
+/*sevices section*/
+#services{
+
+    /* flex-direction: column;    */
+}
+#services .box{
+}
+/*contact section*/
+#contact-box{
+    /* overflow: hidden; */
+}
+/*footer section*/
+/*utility section*/
+.h-primary{
+    font-size: 1rem;
+}
+.h-secondary a{
+    font-size: 0.6rem;
+}
