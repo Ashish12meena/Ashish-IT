@@ -206,7 +206,9 @@ body {
     margin: 10px 231px 30px 231px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+#learn-more{
+    display: none;
+}
 /*Services section*/
 #services-container {
     position: relative;

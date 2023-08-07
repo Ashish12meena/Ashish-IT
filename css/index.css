@@ -3,10 +3,14 @@
     padding: 0px;
 }
 
-body {
-    /* background-color: black; */
-    background: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=448&q=80) no-repeat center center fixed;
+body::before {
+    content: " ";
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=448&q=80) no-repeat center center fixed; 
     background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .container {
@@ -16,9 +20,11 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    position: absolute;
-    left: 40%;
-    top: 30%;
+    /* border: 2px solid red; */
+    /* background: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=448&q=80) no-repeat center center fixed;  */
+    background-size: cover;
+    height: 500px;
+    padding: 10%;
 }
 
 .container h1 {
@@ -35,7 +41,7 @@ body {
 }
 
 .box input {
-    width: 75%;
+    width: 35%;
     border-radius: 6px;
     outline: none;
     font-weight: bold;
