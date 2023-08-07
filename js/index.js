@@ -6,8 +6,10 @@ console.log(para);
 function hide() {
     if (para.style.display = 'none') {
         para.style.display = 'block';
+        console.log("display is block");
     } else {
         para.style.display = 'none';
+        console.log("display is none");
     }
 }
 let sign_in = document.getElementById('Sign-in');
