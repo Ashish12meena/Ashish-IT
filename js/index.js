@@ -6,7 +6,8 @@ console.log(para);
 function hide() {
     if (para.style.display = 'none') {
         para.style.display = 'block';
-    } else if(para.style.display = 'block') {
+    } 
+    if(para.style.display = 'block') {
         para.style.display = 'none';
     }
 }
