@@ -4,10 +4,10 @@ let btn = document.getElementsByClassName('btn');
 console.log(btn);
 console.log(para);
 function hide() {
-    if (para.style.display != 'none') {
-        para.style.display = 'none';
-    } else {
+    if (para.style.display = 'none') {
         para.style.display = 'block';
+    } else {
+        para.style.display = 'none';
     }
 }
 let sign_in = document.getElementById('Sign-in');
