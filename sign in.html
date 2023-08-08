@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +12,22 @@
 <body>
     <div class="container">
         <h1>Login to myWeb</h1>
-        <div class="box">
-            <i class="fa fa-envelope"></i>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email">
-        </div>
-        <div class="box">
-            <i class="fa fa-key"></i>
-            <input type="password" name="password" id="password" placeholder="Enter Your Password">
-        </div>
-        <button class="btn">	
-            sign in
-            <i class="fa fa-sign-in"></i>
-        </button>
+        <form action="database" method="post">
+            <div class="box" id="email">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="box" id="password">
+                <i class="fa fa-key"></i>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            </div>
+            <button class="btn" onclick="check()">
+                sign in
+                <i class="fa fa-sign-in"></i>
+            </button>
+        </form>
     </div>
+    <script src="js/sign in.js"></script>
 </body>
 
 </html>
