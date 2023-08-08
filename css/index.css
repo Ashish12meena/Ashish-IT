@@ -41,7 +41,7 @@ body::before {
 }
 
 .box input {
-    width: 35%;
+    width: 75%;
     border-radius: 6px;
     outline: none;
     font-weight: bold;
